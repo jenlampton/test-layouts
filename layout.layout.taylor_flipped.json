@@ -1,0 +1,264 @@
+{
+    "_config_name": "layout.layout.taylor_flipped",
+    "path": "taylor_flipped",
+    "name": "taylor_flipped",
+    "title": "Taylor flipped",
+    "description": null,
+    "module": null,
+    "weight": 0,
+    "storage": 1,
+    "layout_template": "taylor_flipped",
+    "disabled": false,
+    "settings": {
+        "title": "Taylor Flipped",
+        "title_display": "custom",
+        "title_block": null
+    },
+    "positions": {
+        "header": [
+            "ab431e5d-6277-426d-b952-825ad8a33239",
+            "dc20ab49-4708-4625-a400-e284c02a6290"
+        ],
+        "top": [
+            "3bc18ad4-4738-4874-964e-7807827d9572"
+        ],
+        "content": [
+            "346e6037-3ed2-4144-b13f-6395a2367f0e"
+        ],
+        "sidebar": [
+            "78d3d3cc-fa07-4cf2-8602-02f20c6fe711",
+            "2a35a066-42a0-48af-a000-d0c4cbf1f7f5"
+        ],
+        "sidebar2": [
+            "c4d0d17d-f271-4f3e-8d5e-94d49d958cc2"
+        ],
+        "bottom": [
+            "8bf76818-0eac-43d4-a000-f8dac2228c11"
+        ],
+        "footer": [
+            "ec5cfee7-7a62-403a-b500-e9f14436d3fc"
+        ]
+    },
+    "content": {
+        "ab431e5d-6277-426d-b952-825ad8a33239": {
+            "plugin": "system:header",
+            "data": {
+                "module": "system",
+                "delta": "header",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": {
+                        "menu": "user-menu",
+                        "logo": 1,
+                        "site_name": 1,
+                        "site_slogan": 1
+                    },
+                    "contexts": []
+                },
+                "uuid": "ab431e5d-6277-426d-b952-825ad8a33239",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "dc20ab49-4708-4625-a400-e284c02a6290": {
+            "plugin": "system:main-menu",
+            "data": {
+                "module": "system",
+                "delta": "main-menu",
+                "settings": {
+                    "title_display": "none",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "dc20ab49-4708-4625-a400-e284c02a6290",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "3bc18ad4-4738-4874-964e-7807827d9572": {
+            "plugin": "system:breadcrumb",
+            "data": {
+                "module": "system",
+                "delta": "breadcrumb",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "3bc18ad4-4738-4874-964e-7807827d9572",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "346e6037-3ed2-4144-b13f-6395a2367f0e": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "Content",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                    "format": "filtered_html"
+                },
+                "uuid": "346e6037-3ed2-4144-b13f-6395a2367f0e",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "78d3d3cc-fa07-4cf2-8602-02f20c6fe711": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "First Sidebar",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "78d3d3cc-fa07-4cf2-8602-02f20c6fe711",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "2a35a066-42a0-48af-a000-d0c4cbf1f7f5": {
+            "plugin": "user:login",
+            "data": {
+                "module": "user",
+                "delta": "login",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "2a35a066-42a0-48af-a000-d0c4cbf1f7f5",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "c4d0d17d-f271-4f3e-8d5e-94d49d958cc2": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "Second Sidebar",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "c4d0d17d-f271-4f3e-8d5e-94d49d958cc2",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "8bf76818-0eac-43d4-a000-f8dac2228c11": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "Bottom block",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "8bf76818-0eac-43d4-a000-f8dac2228c11",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "ec5cfee7-7a62-403a-b500-e9f14436d3fc": {
+            "plugin": "system:powered-by",
+            "data": {
+                "module": "system",
+                "delta": "powered-by",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "ec5cfee7-7a62-403a-b500-e9f14436d3fc",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "_config_name": "layout.layout.boxton",
+    "path": "boxton",
+    "name": "boxton",
+    "title": "Boxton",
+    "description": null,
+    "module": null,
+    "weight": 0,
+    "storage": 1,
+    "layout_template": "boxton",
+    "disabled": false,
+    "settings": {
+        "title": "Boxton",
+        "title_display": "custom",
+        "title_block": null
+    },
+    "positions": {
+        "header": [
+            "5c9b2de0-30d2-4b2b-9d02-2ab5344b5809",
+            "1181c1a0-ab29-4aad-9b05-5af2601f6b99"
+        ],
+        "top": [
+            "5b6832c1-9d55-41b9-8b40-64e2ceb0188a"
+        ],
+        "content": [
+            "163fc21b-aba8-4ed9-9500-f4c6fba3d014"
+        ],
+        "bottom": [
+            "13542a4a-3e75-47d9-bd03-3adddcb0a069"
+        ],
+        "footer": [
+            "de203234-8609-435e-8d20-321538fe134e"
+        ]
+    },
+    "content": {
+        "5c9b2de0-30d2-4b2b-9d02-2ab5344b5809": {
+            "plugin": "system:header",
+            "data": {
+                "module": "system",
+                "delta": "header",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": {
+                        "menu": "user-menu",
+                        "logo": 1,
+                        "site_name": 1,
+                        "site_slogan": 1
+                    },
+                    "contexts": []
+                },
+                "uuid": "5c9b2de0-30d2-4b2b-9d02-2ab5344b5809",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "1181c1a0-ab29-4aad-9b05-5af2601f6b99": {
+            "plugin": "system:main-menu",
+            "data": {
+                "module": "system",
+                "delta": "main-menu",
+                "settings": {
+                    "title_display": "none",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "1181c1a0-ab29-4aad-9b05-5af2601f6b99",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "5b6832c1-9d55-41b9-8b40-64e2ceb0188a": {
+            "plugin": "system:breadcrumb",
+            "data": {
+                "module": "system",
+                "delta": "breadcrumb",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "5b6832c1-9d55-41b9-8b40-64e2ceb0188a",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "163fc21b-aba8-4ed9-9500-f4c6fba3d014": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "content block",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "163fc21b-aba8-4ed9-9500-f4c6fba3d014",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "13542a4a-3e75-47d9-bd03-3adddcb0a069": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "Bottom block",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "13542a4a-3e75-47d9-bd03-3adddcb0a069",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "de203234-8609-435e-8d20-321538fe134e": {
+            "plugin": "system:powered-by",
+            "data": {
+                "module": "system",
+                "delta": "powered-by",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "de203234-8609-435e-8d20-321538fe134e",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

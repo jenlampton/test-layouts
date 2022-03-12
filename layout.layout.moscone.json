@@ -1,0 +1,236 @@
+{
+    "_config_name": "layout.layout.moscone",
+    "path": "moscone",
+    "name": "moscone",
+    "title": "Moscone",
+    "description": null,
+    "module": null,
+    "weight": 0,
+    "storage": 1,
+    "layout_template": "moscone",
+    "disabled": false,
+    "settings": {
+        "title": "Moscone",
+        "title_display": "custom",
+        "title_block": null
+    },
+    "positions": {
+        "header": [
+            "69451584-53b0-47f0-a21a-2617c03120c4",
+            "2252b8df-e99d-4b08-8e2a-42b4e08d9c68"
+        ],
+        "top": [
+            "3161c877-2a2f-41a4-b604-4be1e199fa96"
+        ],
+        "content": [
+            "50e9567e-7926-43ec-b200-f501d59f7ae3"
+        ],
+        "sidebar": [
+            "5d0771d7-4d00-4fd7-a600-e97a259884a8",
+            "cbd7d85e-8725-433e-9554-84ce81ce54c0"
+        ],
+        "bottom": [
+            "ae77db9a-7bb0-4e21-9c40-6443ed21bdb4"
+        ],
+        "footer": [
+            "86607cbd-9075-4466-b200-0bde34c73ecd"
+        ]
+    },
+    "content": {
+        "69451584-53b0-47f0-a21a-2617c03120c4": {
+            "plugin": "system:header",
+            "data": {
+                "module": "system",
+                "delta": "header",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": {
+                        "menu": "user-menu",
+                        "logo": 1,
+                        "site_name": 1,
+                        "site_slogan": 1
+                    },
+                    "contexts": []
+                },
+                "uuid": "69451584-53b0-47f0-a21a-2617c03120c4",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "2252b8df-e99d-4b08-8e2a-42b4e08d9c68": {
+            "plugin": "system:main-menu",
+            "data": {
+                "module": "system",
+                "delta": "main-menu",
+                "settings": {
+                    "title_display": "none",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "2252b8df-e99d-4b08-8e2a-42b4e08d9c68",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "3161c877-2a2f-41a4-b604-4be1e199fa96": {
+            "plugin": "system:breadcrumb",
+            "data": {
+                "module": "system",
+                "delta": "breadcrumb",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "3161c877-2a2f-41a4-b604-4be1e199fa96",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "50e9567e-7926-43ec-b200-f501d59f7ae3": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "Content block",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "50e9567e-7926-43ec-b200-f501d59f7ae3",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "5d0771d7-4d00-4fd7-a600-e97a259884a8": {
+            "plugin": "user:login",
+            "data": {
+                "module": "user",
+                "delta": "login",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "5d0771d7-4d00-4fd7-a600-e97a259884a8",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "cbd7d85e-8725-433e-9554-84ce81ce54c0": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "Sidebar",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "cbd7d85e-8725-433e-9554-84ce81ce54c0",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "ae77db9a-7bb0-4e21-9c40-6443ed21bdb4": {
+            "plugin": "layout:custom_block",
+            "data": {
+                "module": "layout",
+                "delta": "custom_block",
+                "settings": {
+                    "title_display": "default",
+                    "title": "Bottom Block",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": [],
+                    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>\n",
+                    "format": "filtered_html"
+                },
+                "uuid": "ae77db9a-7bb0-4e21-9c40-6443ed21bdb4",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        },
+        "86607cbd-9075-4466-b200-0bde34c73ecd": {
+            "plugin": "system:powered-by",
+            "data": {
+                "module": "system",
+                "delta": "powered-by",
+                "settings": {
+                    "title_display": "default",
+                    "title": "",
+                    "style": "default",
+                    "block_settings": [],
+                    "contexts": []
+                },
+                "uuid": "86607cbd-9075-4466-b200-0bde34c73ecd",
+                "style": {
+                    "plugin": "default",
+                    "data": {
+                        "settings": {
+                            "classes": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
